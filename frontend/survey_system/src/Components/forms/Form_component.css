@@ -1,0 +1,118 @@
+/* Custom styles for the form */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  color: #fff; /* Set the text color to white */
+}
+
+.form-check-label {
+  margin-left: 5px;
+}
+
+/* Styling the submit button */
+.btn-primary {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  margin: 20px 60px;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+  background: transparent;
+  border-radius: 20px;
+  color: aqua;
+}
+.btn-primary:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.rocket_image {
+  background-image: url('../../resources/rocket.png');
+  padding: 50px;
+  width: 200px;
+  height: 120px;
+  rotate: 270deg;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Styling the radio buttons */
+.form-check-input {
+  margin-right: 5px;
+}
+
+/* Styling to box */
+.complete_box {
+  display: flex;
+}
+.box1 {
+  flex: 2;
+}
+.box2 {
+  flex: 1;
+  height: 1000px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Adding some spacing between the form fields */
+.mb-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: transparent;
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+/* Customize form field background and border */
+.form-control {
+  background-color: #ff7700;
+  padding: 5px;
+  border-radius: 50px; /* White background for form fields */
+  color: white;
+  font-weight: bold;
+}
+
+/* Error messages */
+.error-message {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 5px rgb(255, 0, 0), 0 0 25px rgb(255, 0, 0), 0 0 50px rgb(255, 0, 0), 0 0 100px rgb(255, 0, 0), 0 0 200px rgb(255, 0, 0);
+  background-color: #af0101;
+  padding: 5px;
+  border-radius: 50px;
+  align-content: center;
+  font-size: 14px;
+  margin: 20px;
+}
+
+/* Additional CSS for the "companies" tab */
+.companies-tab {
+  /* Add any specific styling you want for the "companies" tab here */
+  border: 2px solid cyan;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.companies-select {
+  /* Add any specific styling you want for the "companies" multi-select dropdown here */
+  background-color: #ff7700;
+  padding: 5px;
+  border-radius: 10px; /* White background for form fields */
+  color: white;
+  font-weight: bold;
+  height: 200px;
+  overflow-y: scroll;
+}
+.form-control.select-css option:checked {
+  background-color: #1e90ff; /* Change the background color for selected options */
+  color: white; /* Change the text color for selected options */
+  font-weight: bold; /* Bold text for selected options */
+}
