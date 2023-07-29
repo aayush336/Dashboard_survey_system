@@ -12,3 +12,4 @@ The controller class receives the response from the service class and formats it
 The controller class sends the HTTP response back to the client.
 
 
+![Screenshot 2023-07-29 193951](https://github.com/aayush336/Dashboard_survey_system/assets/60349826/159abf09-3af6-4230-8153-e710fa61186d)
